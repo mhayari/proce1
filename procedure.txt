@@ -1,0 +1,9 @@
+procedure dot_product(var v1:array_of_integer,var v2:array_of_integer)
+VAR
+	i:integer;
+	ps:integer:=0
+BEGIN
+	FOR i FROM 0 TO v1.length-1 DO
+	ps+=(v1[i]*v2[i])
+	Read(ps)
+END
